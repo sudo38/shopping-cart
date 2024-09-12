@@ -1,0 +1,46 @@
+main {
+   min-height: 100vh;
+   background: #f1f1f1;
+}
+a {
+   text-decoration: none;
+}
+.breadcrumb {
+   background: #fff;
+}
+.table,
+.card {
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+td {
+   font-weight: bold !important;
+   text-align: center !important;
+   vertical-align: middle !important;
+}
+.card > .card-body {
+   padding: 35px;
+}
+.input-group {
+   justify-content: center;
+}
+.input-group > .qty {
+   width: 50%;
+   outline: none;
+   text-align: center;
+}
+
+.swal2-popup {
+   width: fit-content !important;
+}
+
+#cartCount {
+   position: absolute;
+   background-color: red;
+   color: white;
+   border-radius: 50%;
+   padding: 2px 6px;
+   font-size: 11px;
+   line-height: 1;
+   font-weight: bold;
+   transform: translate(50%, -50%);
+}

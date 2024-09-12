@@ -1,0 +1,30 @@
+main {
+   min-height: 100vh;
+   background: #f1f1f1;
+}
+a {
+   text-decoration: none;
+}
+.container {
+   padding: 40px 100px !important;
+}
+td {
+   font-weight: bold !important;
+   text-align: center !important;
+   vertical-align: middle !important;
+}
+.card > .card-body {
+   padding: 35px;
+}
+.input-group {
+   justify-content: center;
+}
+.input-group > .qty {
+   width: 50%;
+   outline: none;
+   text-align: center;
+}
+
+.swal2-popup {
+   width: fit-content !important;
+}
